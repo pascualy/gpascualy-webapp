@@ -1,5 +1,6 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
 .browsehappy {
@@ -56,6 +57,23 @@ body {
     padding: 14px 24px;
   }
 }
+ .project {
+
+ }
+
+.img {
+    height:auto;
+    width:auto;
+    max-height: 450px;
+    padding-top: 0px;
+  }
+
+.about {
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+}
+
 
 /* Supporting marketing content */
 .marketing {
